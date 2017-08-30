@@ -29,59 +29,57 @@
 
 #### **请求格式** {#id-运单状态订阅-5.1.3.请求格式}
 
+如果客户希望顺丰主动推送运单路由，首先需要调用此接口，告诉顺丰需要推送路由的运单信息。路由的结果我们会通过您提供的回调地址推送给您。
 
-
-`[{`
-
-`     "id": "1111111111",`
-
-`     "billCode": "700000000",`
-
-`     "pushCategory": "callBack",`
-
-`     "pushTarget": "122.138.1.13:8080/shangjia/traces",`
-
-`     "pushTime": 1,`
-
-`     "subscriptionCategory": 63,`
-
-` "createBy": "XXX",`
-
-`},{`
-
-`     "id": "1111111112",`
-
-`     "billCode": "7000000001",`
-
-`     "pushCategory": "callBack",`
-
-`     "pushTarget": "122.138.1.13:8080/shangjia/traces",`
-
-`    "pushTime": 1,`
-
-`    "subscriptionCategory": 63,`
-
-`  "createBy": "XXX"`
-
-`},{`
-
-`    "id": "1111111113",`
-
-`     "billCode": "7000000002",`
-
-`     "pushCategory": "callBack",`
-
-`     "pushTarget": "122.138.1.13:8080/shangjia/traces",`
-
-`     "pushTime": 1,`
-
-`     "subscriptionCategory": 63,`
-
-` "createBy": "XXX"`
+> `[{`
+>
+> `"id": "1111111111",`
+>
+> `"billCode": "700000000",`
+>
+> `"pushCategory": "callBack",`
+>
+> `"pushTarget": "122.138.1.13:8080/shangjia/traces",`
+>
+> `"pushTime": 1,`
+>
+> `"subscriptionCategory": 63,`
+>
+> `"createBy": "XXX",`
+>
+> `},{`
+>
+> `"id": "1111111112",`
+>
+> `"billCode": "7000000001",`
+>
+> `"pushCategory": "callBack",`
+>
+> `"pushTarget": "122.138.1.13:8080/shangjia/traces",`
+>
+> `"pushTime": 1,`
+>
+> `"subscriptionCategory": 63,`
+>
+> `"createBy": "XXX"`
+>
+> `},{`
+>
+> `"id": "1111111113",`
+>
+> `"billCode": "7000000002",`
+>
+> `"pushCategory": "callBack",`
+>
+> `"pushTarget": "122.138.1.13:8080/shangjia/traces",`
+>
+> `"pushTime": 1,`
+>
+> `"subscriptionCategory": 63,`
+>
+> `"createBy": "XXX"`
 
 `}]`
-
-
 
 
 
