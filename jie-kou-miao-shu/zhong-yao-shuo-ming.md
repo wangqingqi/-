@@ -29,111 +29,74 @@
 
 #### **请求格式** {#id-运单状态订阅-5.1.3.请求格式}
 
-\[{
 
-     "id": "1111111111",
 
-     "billCode": "700000000",
-
-     "pushCategory": "callBack",
-
-     "pushTarget": "122.138.1.13:8080/shangjia/traces",
-
-     "pushTime": 1,
-
-     "subscriptionCategory": 63,
-
- "createBy": "XXX",
-
+```
+[{
+     "id": "1111111111",
+     "billCode": "700000000",
+     "pushCategory": "callBack",
+     "pushTarget": "122.138.1.13:8080/shangjia/traces",
+     "pushTime": 1,
+     "subscriptionCategory": 63,
+ "createBy": "XXX",
 },{
-
-     "id": "1111111112",
-
-     "billCode": "7000000001",
-
-     "pushCategory": "callBack",
-
-     "pushTarget": "122.138.1.13:8080/shangjia/traces",
-
-    "pushTime": 1,
-
-    "subscriptionCategory": 63,
-
-  "createBy": "XXX"
-
+     "id": "1111111112",
+     "billCode": "7000000001",
+     "pushCategory": "callBack",
+     "pushTarget": "122.138.1.13:8080/shangjia/traces",
+    "pushTime": 1,
+    "subscriptionCategory": 63,
+  "createBy": "XXX"
 },{
+    "id": "1111111113",
+     "billCode": "7000000002",
+     "pushCategory": "callBack",
+     "pushTarget": "122.138.1.13:8080/shangjia/traces",
+     "pushTime": 1,
+     "subscriptionCategory": 63,
+ "createBy": "XXX"
+}]
+```
 
-    "id": "1111111113",
 
-     "billCode": "7000000002",
-
-     "pushCategory": "callBack",
-
-     "pushTarget": "122.138.1.13:8080/shangjia/traces",
-
-     "pushTime": 1,
-
-     "subscriptionCategory": 63,
-
- "createBy": "XXX"
-
-}\]
-
----
 
 #### **返回格式** {#id-运单状态订阅-5.1.4.返回格式}
 
 **· **正确返回
 
-\[{
-
-     "id": "1111111111",
-
-     "status": true,
-
-     "remark": "订阅成功"
-
+```
+[{
+     "id": "1111111111",
+     "status": true,
+     "remark": "订阅成功"
 },{
-
-     "id": "1111111112",
-
-     "status": true,
-
-     "remark": "订阅成功"
-
+     "id": "1111111112",
+     "status": true,
+     "remark": "订阅成功"
 },{
-
-     "id": "1111111113",
-
-     "status": true,
-
-     "remark": "订阅成功"
-
+     "id": "1111111113",
+     "status": true,
+     "remark": "订阅成功"
 },{
-
-     "id": "1111111113",
-
-     "status": false,
-
-     "remark": "订阅失败,原因XXX"
-
-}\]
+     "id": "1111111113",
+     "status": false,
+     "remark": "订阅失败,原因XXX"
+}]
+```
 
 
 
 **· **错误返回
 
-    {
-
-    "status": false,
-
-    "statusCode": "S02",
-
-    "message": "不合法的签名",
-
-    "result": null
-
+```
+  {
+    "status": false,
+    "statusCode": "S02",
+    "message": "不合法的签名",
+    "result": null
 }
+```
 
 
 

@@ -6,10 +6,6 @@
 * [部份Ⅳ· 参数安全及数据完整性](can-shu-an-quan-ji-shu-ju-wan-zheng-xing.md)
 * [部份Ⅴ· 接口描述](jie-kou-miao-shu.md)
   * [5.1 订阅服务](jie-kou-miao-shu/zhong-yao-shuo-ming.md)
-    * [5.1.1 业务描述](jie-kou-miao-shu/zhong-yao-shuo-ming/ding-yue.md)
-    * 5.1.2 字段含义
-    * 5.1.3 请求格式
-    * 5.1.4 返回格式
   * [5.2 取消服务](jie-kou-miao-shu/qu-xiao-fu-wu.md)
     * 5.2.1 业务描述
     * 5.2.2 字段含义
