@@ -2,9 +2,6 @@
 
 * [部份Ⅰ· 版本更新记录](ban-ben-geng-xin-ji-lu.md)
 * [部份Ⅱ· 概述](gai-shu.md)
-  * [2.1 文档目的](gai-shu/wen-dang-mu-76845d.md)
-  * [2.2 名词说明](gai-shu/ming-ci-shuo-ming.md)
-  * [2.2 重要说明](gai-shu/zhong-yao-shuo-ming.md)
 * [部份Ⅲ· 业务描述](ye-wu-miao-shu.md)
   * [3.1 业务流程图](ye-wu-miao-shu/zhong-yao-shuo-ming.md)
   * 3.2 业务描述
