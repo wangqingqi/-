@@ -3,9 +3,8 @@
 * [部份Ⅰ· 版本更新记录](ban-ben-geng-xin-ji-lu.md)
 * [部份Ⅱ· 概述](gai-shu.md)
 * [部份Ⅲ· 业务描述](ye-wu-miao-shu.md)
-  * [3.1 业务流程图](ye-wu-miao-shu/zhong-yao-shuo-ming.md)
 * [部份Ⅳ· 参数安全及数据完整性](can-shu-an-quan-ji-shu-ju-wan-zheng-xing.md)
-  * 4.1 参数定义
+  * [4.1 参数定义](can-shu-an-quan-ji-shu-ju-wan-zheng-xing/41-can-shu-ding-yi.md)
   * 4.2 安全及数据完整性
   * 4.3 数据发送及接收
 * [部份Ⅴ· 接口描述](jie-kou-miao-shu.md)
