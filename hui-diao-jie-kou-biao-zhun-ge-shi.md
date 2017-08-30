@@ -13,13 +13,12 @@
 | msg\_type | 消息类型\(Traces\) |
 | company\_id | 合作商ID（为调用订阅接口时传递的createBy） |
 
-  
 **data消息体结构说明**
 
 | **参数名称** | **用途** |
 | :--- | :--- |
 | billCode | 运单号 |
-| scanType | 扫描类型，事件/操作，详情参见scanType编码规范 |
+| scanType | 扫描类型，事件/操作，详情参见附录[ scanType 编码规范](https://wangqingqi.gitbooks.io/testbook/content/fu-jian.html) |
 | scanSite | 扫描网点 |
 | scanCity | 扫描城市 |
 | scanDate | 扫描时间（yyyy-MM-dd HH:mm:ss） |
@@ -68,8 +67,4 @@
 ```
 
 对接方返回格式需严格按照中通定义的返回格式处理返回报文，如格式不正确，会导致数据推送不全的情况产生。
-
-
-
-
 
