@@ -10,7 +10,6 @@
   * [5.3 订阅并返回物流详情](jie-kou-miao-shu/ding-yue-bing-fan-hui-wu-liu-xiang-qing.md)
 * [部份Ⅵ· 回调接口标准格式](hui-diao-jie-kou-biao-zhun-ge-shi.md)
 * [部份Ⅶ· 系统错误信息](xi-tong-cuo-wu-xin-xi.md)
-  * 重要说明
 * [部份Ⅷ· 接口地址](README.md)
 * [附录](fu-jian.md)
 
