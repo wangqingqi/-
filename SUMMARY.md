@@ -9,10 +9,6 @@
   * [5.2 取消服务](jie-kou-miao-shu/qu-xiao-fu-wu.md)
   * [5.3 订阅并返回物流详情](jie-kou-miao-shu/ding-yue-bing-fan-hui-wu-liu-xiang-qing.md)
 * [部份Ⅵ· 回调接口标准格式](hui-diao-jie-kou-biao-zhun-ge-shi.md)
-  * [6.1 业务描述](hui-diao-jie-kou-biao-zhun-ge-shi/zhong-yao-shuo-ming.md)
-  * [6.2 字段含义](hui-diao-jie-kou-biao-zhun-ge-shi/62-zi-duan-han-yi.md)
-  * 6.3 请求格式
-  * 6.4 返回格式
 * [部份Ⅶ· 系统错误信息](xi-tong-cuo-wu-xin-xi.md)
   * 重要说明
 * [部份Ⅷ· 接口地址](README.md)
