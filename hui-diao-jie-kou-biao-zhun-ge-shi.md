@@ -25,8 +25,8 @@
 | desc | 物流信息描述 |
 | contacts | 收\派件业务，签收客户名 |
 | contactsTel | 收\派件业务电话 |
-| remark1 | 备注信息，后期约定，未用到的可以忽略 |
-| remark2 | 同上 |
+| remark1 | 值为\[THIRD\_PARTY\_SIGN\] 时，为代理点信息 |
+| remark2 | 备注信息，后期约定，未用到的可以忽略 |
 | remark3 | 同上 |
 | remark4 | 同上 |
 | remark5 | 同上 |
