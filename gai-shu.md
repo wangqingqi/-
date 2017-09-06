@@ -34,7 +34,7 @@
 
 4、订阅接口和回调推送使用的key 不相同，注意，订阅时使用createBy字段请不要使用开放平台申请的company\_id。
 
-5、物流详情数据只会推送在订阅之后产生的流转信息，比如在揽件后再进行订阅，该订单的揽件数据不会在进行推送，如仍需要揽件数据，参考 [https://www.gitbook.com/book/wangqingqi/testbook/edit\#/edit/master/jie-kou-miao-shu/ding-yue-bing-fan-hui-wu-liu-xiang-qing.md?\_k=eavaaf](https://www.gitbook.com/book/wangqingqi/testbook/edit#/edit/master/jie-kou-miao-shu/ding-yue-bing-fan-hui-wu-liu-xiang-qing.md?_k=eavaaf "订阅并返回物流详情")。
+5、物流详情数据只会推送在订阅之后产生的流转信息，比如在揽件后再进行订阅，该订单的揽件数据不会在进行推送，如仍需要揽件数据，参考：[ 5.3 订阅并返回物流详情](https://www.gitbook.com/book/wangqingqi/testbook/edit#/edit/master/jie-kou-miao-shu/ding-yue-bing-fan-hui-wu-liu-xiang-qing.md?_k=eavaaf)。
 
 6、订阅数据保存周期最长为1个月，如果运单流转记录跨度超过一个月，需在失效前，重新订阅。
 
