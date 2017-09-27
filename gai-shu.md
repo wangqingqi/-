@@ -40,6 +40,8 @@
 
 7、订阅接口和回调推送加密时使用的 key 不相同，注意，订阅时使用createBy字段请不要使用开放平台申请的company\_id。
 
+**测试参数：**
+
 **订阅接口：company\_id=zto,key=123456,craate=test**
 
 **回调接口：company\_id=test,key=789789**
