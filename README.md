@@ -2,7 +2,7 @@
 
 测试
 
-[http://58.40.16.125:9001/](http://58.40.16.125:9001/)zto/api\_utf8/subBillLog\(外网\)
+[http://58.40.16.125:9001/](http://58.40.16.125:9001/)zto/api\_utf8/subBillLog\(公网\)
 
 正式
 
@@ -12,7 +12,7 @@ UTF-8:[http://japi.zto.cn/zto/api\_utf8/subBillLog](http://japi.zto.cn/zto/api_u
 
 ```js
 curl -X POST \
-  http://10.9.20.34:9001/zto/api_utf8/subBillLog \
+  http://58.40.16.125:9001/zto/api_utf8/subBillLog \
   -H 'cache-control: no-cache' \
   -H 'content-type: multipart/form-data; boundary=----WebKitFormBoundary7MA4YWxkTrZu0gW' \
   -H 'postman-token: 532698be-96e4-4fcd-c730-68bfd9bebe6f' \
